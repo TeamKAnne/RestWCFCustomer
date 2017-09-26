@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7E3ED6C-4323-42E1-8F47-867F6753DFAD}</ProjectGuid>
+    <ProjectGuid>{A1972E71-AE83-4607-B612-5F37CBCA83A2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CustomerClient</RootNamespace>
-    <AssemblyName>CustomerClient</AssemblyName>
+    <RootNamespace>ClientCustomer</RootNamespace>
+    <AssemblyName>ClientCustomer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Connected Services\CustomerService\ClientCustomer.CustomerService.Customer.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Connected Services\CustomerService\CostumerHandler.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -65,9 +68,6 @@
     </None>
     <None Include="Connected Services\CustomerService\CostumerHandler2.xsd">
       <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CustomerService\CustomerClient.CustomerService.Customer.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\CustomerService\Service1.wsdl" />
     <None Include="packages.config" />

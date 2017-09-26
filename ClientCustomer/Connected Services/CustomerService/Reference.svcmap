@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e38f709f-9cb5-4114-ac3a-14ae1651b077" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="18046163-d4e0-44b8-9cd0-b8ab942dbe89" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,10 @@
     <MetadataSource Address="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CostumerHandler.xsd" MetadataType="Schema" ID="04f54b95-fa2d-4594-b18a-1c293d7b581b" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?xsd=xsd1" />
-    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="0049bc1c-11f9-4174-8a83-cbc7b33a33ff" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?wsdl" />
-    <MetadataFile FileName="CostumerHandler1.xsd" MetadataType="Schema" ID="2eb93e1f-acd9-4be0-a9fc-8aad172f2023" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?xsd=xsd0" />
-    <MetadataFile FileName="CostumerHandler2.xsd" MetadataType="Schema" ID="46ccab23-02e9-468e-81b1-2b37fbcd2142" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?xsd=xsd2" />
+    <MetadataFile FileName="CostumerHandler.xsd" MetadataType="Schema" ID="05bcffc5-e4f6-4a99-81f4-1648677fc52d" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="75745c33-2b1d-4ab5-880d-8a90c051ad0c" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?wsdl" />
+    <MetadataFile FileName="CostumerHandler1.xsd" MetadataType="Schema" ID="a1b7c3b1-f174-43a1-81fc-32474aa93f01" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?xsd=xsd0" />
+    <MetadataFile FileName="CostumerHandler2.xsd" MetadataType="Schema" ID="2c38d103-f81a-411b-aa7d-c1ff47898b29" SourceId="1" SourceUrl="http://restwcfcustomer20170926015151.azurewebsites.net/CostumerHandler.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

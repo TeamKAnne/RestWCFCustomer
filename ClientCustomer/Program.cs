@@ -1,4 +1,4 @@
-﻿using CustomerClient.CustomerService;
+﻿using ClientCustomer.CustomerService;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomerClient
+namespace ClientCustomer
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace CustomerClient
         {
             using (HttpClient client = new HttpClient())
             {
-                string content = await client.GetStringAsync("/customers");
+                string content = await client.GetStringAsync("http://restwcfcustomer20170926015151.azurewebsites.net/CustomerHandler.svc/customers/");
                 IList<Customer> cList = JsonConvert.DeserializeObject<IList<Customer>>(content);
                 return cList;
             }
@@ -24,12 +24,11 @@ namespace CustomerClient
 
         static void Main(string[] args)
         {
-          
-
-
+            foreach (var kunder in GetCustomersAsync().Result)
+            {
+                Console.WriteLine(kunder.Id + kunder.FirstName + kunder.LastName + kunder.Year);
+            }
+            Console.ReadLine();
         }
-
-
-
     }
 }

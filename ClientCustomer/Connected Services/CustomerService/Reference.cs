@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CustomerClient.CustomerService {
+namespace ClientCustomer.CustomerService {
     using System.Runtime.Serialization;
     using System;
     
@@ -111,19 +111,19 @@ namespace CustomerClient.CustomerService {
     public interface ICustomer {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomer/GetCustomers", ReplyAction="http://tempuri.org/ICustomer/GetCustomersResponse")]
-        CustomerClient.CustomerService.Customer[] GetCustomers();
+        ClientCustomer.CustomerService.Customer[] GetCustomers();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICustomer/GetCustomers", ReplyAction="http://tempuri.org/ICustomer/GetCustomersResponse")]
-        System.Threading.Tasks.Task<CustomerClient.CustomerService.Customer[]> GetCustomersAsync();
+        System.Threading.Tasks.Task<ClientCustomer.CustomerService.Customer[]> GetCustomersAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ICustomerChannel : CustomerClient.CustomerService.ICustomer, System.ServiceModel.IClientChannel {
+    public interface ICustomerChannel : ClientCustomer.CustomerService.ICustomer, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CustomerClient : System.ServiceModel.ClientBase<CustomerClient.CustomerService.ICustomer>, CustomerClient.CustomerService.ICustomer {
+    public partial class CustomerClient : System.ServiceModel.ClientBase<ClientCustomer.CustomerService.ICustomer>, ClientCustomer.CustomerService.ICustomer {
         
         public CustomerClient() {
         }
@@ -144,11 +144,11 @@ namespace CustomerClient.CustomerService {
                 base(binding, remoteAddress) {
         }
         
-        public CustomerClient.CustomerService.Customer[] GetCustomers() {
+        public ClientCustomer.CustomerService.Customer[] GetCustomers() {
             return base.Channel.GetCustomers();
         }
         
-        public System.Threading.Tasks.Task<CustomerClient.CustomerService.Customer[]> GetCustomersAsync() {
+        public System.Threading.Tasks.Task<ClientCustomer.CustomerService.Customer[]> GetCustomersAsync() {
             return base.Channel.GetCustomersAsync();
         }
     }

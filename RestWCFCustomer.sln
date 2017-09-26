@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWCFCustomer", "RestWCFC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWCFCustomerTests", "RestWCFCustomerTests\RestWCFCustomerTests.csproj", "{2C85BCC2-7D1A-488E-93C0-76F055261FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerClient", "CustomerClient\CustomerClient.csproj", "{C7E3ED6C-4323-42E1-8F47-867F6753DFAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCustomer", "ClientCustomer\ClientCustomer.csproj", "{A1972E71-AE83-4607-B612-5F37CBCA83A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2C85BCC2-7D1A-488E-93C0-76F055261FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C85BCC2-7D1A-488E-93C0-76F055261FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C85BCC2-7D1A-488E-93C0-76F055261FD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7E3ED6C-4323-42E1-8F47-867F6753DFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7E3ED6C-4323-42E1-8F47-867F6753DFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7E3ED6C-4323-42E1-8F47-867F6753DFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7E3ED6C-4323-42E1-8F47-867F6753DFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1972E71-AE83-4607-B612-5F37CBCA83A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1972E71-AE83-4607-B612-5F37CBCA83A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1972E71-AE83-4607-B612-5F37CBCA83A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1972E71-AE83-4607-B612-5F37CBCA83A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
