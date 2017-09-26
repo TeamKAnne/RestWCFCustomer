@@ -7,6 +7,5 @@ namespace RestWCFCustomer
 {
     public class Costumer
     {
-        //denne klasse skal indeholde props
     }
 }
