@@ -7,5 +7,7 @@ namespace RestWCFCustomer
 {
     public class Costumer
     {
+
+
     }
 }
