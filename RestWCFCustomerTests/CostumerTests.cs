@@ -17,7 +17,7 @@ namespace RestWCFCustomer.Tests
         public void CostumerTest()
         {
             //Arrange
-            Costumer c = new Costumer();
+            Customer c = new Customer();
 
 
             //Act

@@ -10,7 +10,7 @@ namespace RestWCFCustomer
     /// Denne klasse indeholder attributter for costumer.
     /// </summary>
     [DataContract]
-    public class Costumer
+    public class Customer
     {
         /// <summary>
         /// Prop Id
@@ -39,14 +39,14 @@ namespace RestWCFCustomer
         /// <summary>
         /// Default konstruktor - REST afhænger af en default, måske???
         /// </summary>
-        public Costumer()
+        public Customer()
         {
 
         }
         /// <summary>
         /// Overloaded konstruktør som initierer en instans costumer med 4 atributter. 
         /// </summary>
-        public Costumer(int id, string firstname, string lastname, int year)
+        public Customer(int id, string firstname, string lastname, int year)
         {
             this.Id = id;
             this.FirstName = firstname;

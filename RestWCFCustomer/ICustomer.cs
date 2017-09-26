@@ -10,14 +10,14 @@ namespace RestWCFCustomer
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface ICostumer
+    public interface ICustomer
     {
         [OperationContract]
         [WebInvoke(Method = "GET",
             RequestFormat = WebMessageFormat.Json,
             ResponseFormat = WebMessageFormat.Json,
             UriTemplate = "customers/")]
-        List<Costumer> GetCustomers();
+        List<Customer> GetCustomers();
        
     }
 }

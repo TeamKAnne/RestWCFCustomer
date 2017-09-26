@@ -10,12 +10,12 @@ namespace RestWCFCustomer
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : ICostumer
+    public class Service1 : ICustomer
     {
-        private static List<Costumer> cList = new List<Costumer>()
-        { new Costumer(1, "Anne", "Bent", 2015), new Costumer(2, "kasper", "Haj", 2017)};
+        private static List<Customer> cList = new List<Customer>()
+        { new Customer(1, "Anne", "Bent", 2015), new Customer(2, "kasper", "Haj", 2017)};
 
-        public List<Costumer> GetCustomers()
+        public List<Customer> GetCustomers()
         {
             return cList;
         }

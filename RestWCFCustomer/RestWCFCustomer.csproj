@@ -61,21 +61,22 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CostumerHandler.svc" />
+    <Content Include="CustomerHandler.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CostumerHandler.svc.cs">
-      <DependentUpon>CostumerHandler.svc</DependentUpon>
+    <Compile Include="CustomerHandler.svc.cs">
+      <DependentUpon>CustomerHandler.svc</DependentUpon>
     </Compile>
-    <Compile Include="Costumer.cs" />
-    <Compile Include="ICostumer.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="ICustomer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\RestWCFCustomer20170926015151 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
