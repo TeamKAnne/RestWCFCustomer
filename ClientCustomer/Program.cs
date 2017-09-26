@@ -28,6 +28,9 @@ namespace ClientCustomer
             {
                 Console.WriteLine(kunder.Id + kunder.FirstName + kunder.LastName + kunder.Year);
             }
+
+
+
             Console.ReadLine();
         }
     }
