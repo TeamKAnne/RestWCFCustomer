@@ -12,7 +12,12 @@ namespace RestWCFCustomer
     [ServiceContract]
     public interface ICostumer
     {
-
+        [OperationContract]
+        [WebInvoke(Method = "GET",
+            RequestFormat = WebMessageFormat.Json,
+            ResponseFormat = WebMessageFormat.Json,
+            UriTemplate = "customers/")]
+        List<Costumer> GetCustomers();
        
     }
 }

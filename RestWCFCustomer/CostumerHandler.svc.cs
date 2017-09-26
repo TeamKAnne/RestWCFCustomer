@@ -12,6 +12,12 @@ namespace RestWCFCustomer
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : ICostumer
     {
-        
+        private static List<Costumer> cList = new List<Costumer>()
+        { new Costumer(1, "Anne", "Bent", 2015), new Costumer(2, "kasper", "Haj", 2017)};
+
+        public List<Costumer> GetCustomers()
+        {
+            return cList;
+        }
     }
 }
